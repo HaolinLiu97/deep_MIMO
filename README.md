@@ -24,6 +24,6 @@ python test.py --resume=./checkpoints/experiment_name/xxx.pth --gpu=0 --batch_si
 ```
 It will print the BER performance of the model under different SNR.
 #### some results
-The BER performance among MMSE baseline, SVD baseline, and the deep learning based MIMO is shown in the following figure:
+The BER performance among MMSE baseline, SVD baseline, and the deep learning based MIMO is shown in the following figure:<br/>
 ![avatar](./BER.png)
 For SNR lower than 30dB, deep learning based MIMO outperforms the baseline. However, when SNR is higher than 30dB, two baseline models works better, and MMSE baseline is the best among them.
