@@ -11,7 +11,7 @@ Pytorch and some other packages are required, use the following commands to inst
 ```
 pip install -r requirements.txt
 ```
-#### run the program
+#### run the deep learning training
 run the training by typing the following command:
 ```
 python train.py --exp_name=experiment_name --gpu=0 --batch_size=6 --num_bits=2
@@ -23,6 +23,8 @@ test the model by specifying the path of the model's weight
 python test.py --resume=./checkpoints/experiment_name/xxx.pth --gpu=0 --batch_size=6
 ```
 It will print the BER performance of the model under different SNR.
+#### run the baseline model
+the matlab codes for the baseline models is in "MIMO_baseline.m", you can use Matlab to directly run this file and obtain the BER performance of the baseline models.
 #### some results
 The BER performance among MMSE baseline, SVD baseline, and the deep learning based MIMO is shown in the following figure:<br/>
 ![avatar](./BER.png)
