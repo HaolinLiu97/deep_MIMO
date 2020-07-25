@@ -17,6 +17,11 @@ run the training by typing the following command:
 python train.py --exp_name=experiment_name --gpu=0 --batch_size=6 --num_bits=2
 ```
 after the model is trained, the weight file will be stored under ./checkpoints/experiment_name/xxx.pth
+#### test the trained model
+I provide a trained model in ./checkpoints/deep_MIMO/epoch_99.pth, you can type the following command the test this model:
+```
+python test.py --resume=./checkpoints/deep_MIMO/epoch_99.pth --gpu=0 --batch_size=6
+```
 #### test your model
 test the model by specifying the path of the model's weight
 ```
