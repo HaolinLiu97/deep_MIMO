@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="d5f6f177-498f-4cf2-a42b-689b20af83bf" name="new_2080">
+        <fileTransfer rootFolder="/data/haolin" accessType="SFTP" host="10.26.2.29" port="22" sshConfigId="90640baf-646c-4185-ba99-945171fe6bf8" sshConfig="haolin@10.26.2.29:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
